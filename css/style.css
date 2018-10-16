@@ -23,12 +23,13 @@ h5,
 h6 {
   color: #001418;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
   font-size: 18px;
+font-weight: 0;
   color: #979797;
   line-height: 1.8;
 }
@@ -43,12 +44,19 @@ button:focus,
 textarea:focus {
   outline: none;
 }
-
+a {
+ 
+	text-decoration-color: #989898;
+	color: #C99910;
+}
 a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
+color: #989898;
+	
 }
+
 
 ul,
 ol {
