@@ -398,7 +398,7 @@ a li:hover{
   pointer-events: none;
 }
 
-.content-tab .item {
+.content .item {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
@@ -457,7 +457,7 @@ a li:hover{
   cursor: pointer;
 }
 
-.content-tab {
+.content {
   margin: 0px auto;
   text-align: left;
   line-height: 20px;
@@ -486,7 +486,7 @@ a li:hover{
   background: hsl(232deg 18% 8%);
 }
 
-.content-tab p {
+.content p {
   margin: 10px 15px 10px 0;
   letter-spacing: 0.75px;
   font-size: 14pt;
