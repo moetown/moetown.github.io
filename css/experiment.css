@@ -4,30 +4,16 @@
 
 
 
-.wrapper .line {
-  width: 50%;
-  margin: 25px auto 0 auto;
-  height: 1px;
-  background-color: #c3d2e3;
-}
 
-.container {
-  width: 100%;
-  padding: 10px 0;
-  text-align: center;
-  width: 90%;
-  padding: 10px 0px;
-  text-align: center;
-  margin: auto
-}
-.container .card {
+
+.card {
   max-width: 600px;
   min-height: 140px;
   min-width: 595px;
 
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid #6f2a9a;
   margin: 0 auto;
 }
 .tabs {
@@ -42,7 +28,7 @@
 }
 
 .tabs input + label:hover {
-  color: #777;
+  color: #dcdcdc;
 }
 .tabs .tabsShadow {
   width: 100%;
@@ -76,7 +62,7 @@
 }
 
 #tab-3:checked + label {
-  color: #525252;
+  color: #e5e5e5;
 }
 
 #tab-1:checked ~ section #content-1,
@@ -100,18 +86,16 @@
   padding: 5pt 10pt;
   vertical-align: top;
   justify-content: flex-start;
-  background: #333;
-  box-shadow: 1px 1px 2px 1px #231f20;
+  background: #f5f5f5;
+  box-shadow: 1px 1px 2px 1px #c8c8c8;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 8pt;
-  background: #26292c;
   margin-bottom: 0.5px;
   border-radius: 7px 7px 0 0 !important;
-  border-top: 1px solid #3b3d3f;
+  border-top: 1px solid #8cb7e3;
   letter-spacing: 0.1666666667em !important;
-  font-family: "antique-olive" !important;
-  background: hsl(232deg 6% 17%);
+  background: hsl(240, 59%, 92%);
   cursor: pointer;
 }
 
@@ -125,8 +109,8 @@
   display: block;
   padding: 1.25rem;
   z-index: 2;
-  border-top: 1px solid #3b3d3f;
-  background: hsl(232deg 16% 15%);
+  border-top: 1px solid #b1c4d7;
+  background: hsl(240, 1%, 67%);
   position: relative;
 }
 
@@ -138,10 +122,10 @@
   margin: 0 auto;
   z-index: 4 !important;
   position: relative;
-  background: linear-gradient(#141e30, #243b55);
-  background: #16181a;
-  border-top: 1px solid #3b3d3f;
-  background: hsl(232deg 18% 8%);
+  background: linear-gradient(#ebecef, #fafafa);
+  background: #fafafa;
+  border-top: 1px solid #91bce6;
+  background: hsl(0, 0%, 99%);
 }
 
 .content p {
@@ -152,7 +136,6 @@
   color: #f0f2fc;
   line-height: 30px;
   margin-top: 10pt;
-  font-family: "freight-display-pro";
   font-weight: 300 !important;
 }
 h2.tab-title.tab-warning,
@@ -176,7 +159,6 @@ text-decoration: transparent !important;
   text-transform: capitalize;
   font-size: 24px;
   letter-spacing: 0px;
-  font-family: "Manrope" !important;
   font-weight: 800 !important;
 }
 
@@ -273,12 +255,12 @@ span.numit {
   font-family: "muli";
   font-weight: 600;
   text-shadow: 0.5px 0.5px 0.5px #e7e9f5;
-  color: #0e101a;
+  color: #22bf46;
   margin-right: 2px;
   margin-left: -2px;
   padding: 0;
   color: aliceblue;
-  text-shadow: 0.5pt 0.5pt 0.5pt #2d3748;
+  text-shadow: 0.5pt 0.5pt 0.5pt #033c42;
 }
 
 
